@@ -13,27 +13,27 @@ Considera-se:
 
 A EDO utilizada é:
 
-\[
+$$
 \frac{du}{dt} = \lambda - \mu u
-\]
+$$
 
 ou, na forma linear,
 
-\[
+$$
 u' + \mu u = \lambda
-\]
+$$
 
 A solução analítica para um PVI genérico \(u(t_0)=u_0\) é:
 
-\[
+$$
 u(t)=\frac{\lambda}{\mu}+\left(u_0-\frac{\lambda}{\mu}\right)e^{-\mu(t-t_0)}
-\]
+$$
 
 O valor de equilíbrio é:
 
-\[
+$$
 u_e=\frac{\lambda}{\mu}
-\]
+$$
 
 ## Exemplo analisado
 
@@ -45,15 +45,15 @@ Para:
 
 temos:
 
-\[
+$$
 u(t)=0,5(1-e^{-10t})
-\]
+$$
 
 e a utilização tende a:
 
-\[
+$$
 u_e=\frac{5}{10}=0,5
-\]
+$$
 
 ou seja, **50% de utilização em regime permanente**.
 
